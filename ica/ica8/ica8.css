@@ -1,5 +1,6 @@
 body{
-    background-color: khaki;
+    
+    animation: 10s infinite alternate Coolor;
 }
 #box1{
     width: 25vw;
@@ -16,8 +17,16 @@ body{
     height:20vh;
     position: relative;
     background-color: orangered;
-    animation-duration: 5s;
     animation: 5s infinite alternate boom;
+}
+
+@keyframes Coolor{
+    from{
+        background-color:blueviolet;
+    }
+    to{
+        background-color: rgb(50, 162, 102);
+    }
 }
 
 @keyframes boom{
