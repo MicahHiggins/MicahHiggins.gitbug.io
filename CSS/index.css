@@ -66,7 +66,7 @@
         overflow: hidden;
     }
     #Vivaldi:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(88, 140, 251);
     }
     #Beet3 {
@@ -82,7 +82,7 @@
         overflow: hidden;
     }
     #Beet3:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(88, 140, 251);
     }
     #Tchaikovsky {
@@ -98,7 +98,7 @@
         overflow: hidden;
     }
     #Tchaikovsky:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(88, 140, 251);
     }
     #Ravel {
@@ -114,7 +114,7 @@
         overflow: hidden;
     }
     #Ravel:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(145, 180, 255);
     }
     #Beet8 {
@@ -130,7 +130,7 @@
         overflow: hidden;
     }
     #Beet8:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(145, 180, 255);
     }
     #BeetE {
@@ -146,7 +146,7 @@
         overflow: hidden;
     }
     #BeetE:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(145, 180, 255);
     }
     #Bartok {
@@ -162,7 +162,7 @@
         overflow: hidden;
     }
     #Bartok:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(88, 140, 251);
     }
     #Brahms {
@@ -178,7 +178,7 @@
         overflow: hidden;
     }
     #Brahms:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(88, 140, 251);
     }
     #BeetV {
@@ -194,7 +194,7 @@
         overflow: hidden;
     }
     #BeetV:hover {
-        height: 500px;
+        height: fit-content;
         background-color: rgb(88, 140, 251);
     }
     img {
