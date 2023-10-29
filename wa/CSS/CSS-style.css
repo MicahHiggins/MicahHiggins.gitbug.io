@@ -1,0 +1,398 @@
+@media screen and (min-width: 850px) {
+    body {
+        background-color: rgb(88, 140, 251);
+        animation: 10s infinite alternate Coolor;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    @keyframes Coolor{
+        from{
+            background-color:rgb(55, 102, 206);;
+        }
+        to{
+            background-color: rgb(129, 169, 255);;
+        }
+    }
+    h1 {
+        
+        text-align: center;
+    }
+    h3 {
+        padding: 24px 50px;
+        text-align: center;
+    }
+    div h3 {
+        padding: 8px 8px 30px 0px;
+    }
+    p {
+        padding: 0px 0px 5px 0px;
+    }
+    DivG{
+        padding: 0px 0px 0px 0px;
+    }
+    divgroup1 {
+        background-color: rgb(145, 180, 255);
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    divgroup2 {
+        background-color: rgb(88, 140, 251);
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    divgroup3 {
+        background-color: rgb(145, 180, 255);
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    div{
+        padding: 2px 6px;
+    }
+    #Vivaldi {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Vivaldi:hover {
+        height: 500px;
+        background-color: rgb(88, 140, 251);
+    }
+    #Beet3 {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Beet3:hover {
+        height: 500px;
+        background-color: rgb(88, 140, 251);
+    }
+    #Tchaikovsky {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Tchaikovsky:hover {
+        height: 500px;
+        background-color: rgb(88, 140, 251);
+    }
+    #Ravel {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Ravel:hover {
+        height: 500px;
+        background-color: rgb(145, 180, 255);
+    }
+    #Beet8 {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Beet8:hover {
+        height: 500px;
+        background-color: rgb(145, 180, 255);
+    }
+    #BeetE {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #BeetE:hover {
+        height: 500px;
+        background-color: rgb(145, 180, 255);
+    }
+    #Bartok {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Bartok:hover {
+        height: 500px;
+        background-color: rgb(88, 140, 251);
+    }
+    #Brahms {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Brahms:hover {
+        height: 500px;
+        background-color: rgb(88, 140, 251);
+    }
+    #BeetV {
+        padding: 5px 5px 50px 5px;
+        height: 70px;
+        margin: 5px 1% 5px 1%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #BeetV:hover {
+        height: 500px;
+        background-color: rgb(88, 140, 251);
+    }
+    img {
+        margin: 10px 5px 6px;
+        padding: 10px 0px;
+        max-width: 85px;
+        background-color: rgb(145, 180, 255);
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        background-color: rgb(88, 140, 251);
+        animation: 10s infinite alternate Coolor;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    @keyframes Coolor{
+        from{
+            background-color:rgb(55, 102, 206);;
+        }
+        to{
+            background-color: rgb(129, 169, 255);;
+        }
+    }
+    h1 {
+        
+        text-align: center;
+    }
+    h3 {
+        padding: 24px 50px;
+        text-align: center;
+    }
+    div h3 {
+        padding: 12px 8px 25px 0px;
+    }
+    p {
+        padding: 0px 0px 5px 0px;
+    }
+    DivG{
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    div{
+        padding: 2px 6px;
+    }
+    #Vivaldi {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Vivaldi:hover {
+        height:fit-content;
+        background-color: rgb(145, 180, 255);;
+    }
+    #Beet3 {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Beet3:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);;
+    }
+    #Tchaikovsky {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Tchaikovsky:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);;
+    }
+    #Ravel {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Ravel:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);
+    }
+    #Beet8 {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Beet8:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);
+    }
+    #BeetE {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #BeetE:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);
+    }
+    #Bartok {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Bartok:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);;
+    }
+    #Brahms {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #Brahms:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);
+    }
+    #BeetV {
+        padding: 5px 5px 50px 5px;
+        height: 50px;
+        margin: 15px 15% 15px 15%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        text-align: center;
+        overflow: hidden;
+    }
+    #BeetV:hover {
+        height: fit-content;
+        background-color: rgb(145, 180, 255);;
+    }
+    img {
+        margin: 2px 5px 6px;
+        padding: 10px 0px;
+        max-width: 85px;
+        background-color: rgb(145, 180, 255);
+    }
+}
+
