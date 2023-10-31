@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {
+            background-color: blue;
+        }
+        button {
+            font-family: helvetica, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: larger;
+            border: 3px solid rgba(13, 246, 164, 0.697);
+            background-color: rgba(17, 57, 238, 0.751);
+            width: 200px;
+            height: 200px;
+            color: rgb(241, 108, 0);
+            box-shadow: 2px 2px 4px rgba(52, 120, 194, 0.349);
+            border-radius: 12px;
+            padding: 3px 10px;
+            cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <button type="button">BG Color</button>
+    <h1 id="hover">???</h1>
+    <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+        const element = document.querySelector('body');
+        element.style.backgroundColor = "rgb(190,105,87)";
+        });
+        const m = document.getElementById("hover");
+        m.addEventListener("mousemove", MM)
+        function MM() {
+            const para = document.createElement("p");
+            para.textContent = "ALERT! VIRUS DETECTED IN MAINFRAME! GOOD GOD, THE MATRIX IS OVERLOADED!";
+            document.body.appendChild(para);
+        }
+
+    </script>
+</body>
+</html>
