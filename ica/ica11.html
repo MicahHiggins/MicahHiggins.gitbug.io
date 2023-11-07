@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function start</title>
+    <style>
+        button {
+                border: 0;
+                border-radius: 8px;
+                font-size: 20px;
+                font-weight: 500;
+                color: #fff;
+                cursor: pointer;
+                background-image: linear-gradient(to right,#7352e0,#e44327);
+                padding: 16px 18px 15px;
+                
+      }
+      button:hover {
+        background-image: linear-gradient(to right,#51d670,#7352e0);
+            }
+    </style>
+  </head>
+  <body>
+    <button>Hit Me</button>
+    <canvas></canvas>
+    <script>
+
+        const btn = document.querySelector("button");
+        const canvas = document.querySelector("canvas");
+        const ctx = canvas.getContext("2d");
+
+        document.addEventListener("DOMContentLoaded", () => {
+        canvas.width = document.documentElement.clientWidth;
+        canvas.height = document.documentElement.clientHeight;
+        });
+
+        function random(number) {
+        return Math.floor(Math.random() * number);
+        }
+        function random2(number) {
+        return Math.floor(Math.random() * number);
+        }
+        function random3(number) {
+        return (Math.random() * number);
+        }
+
+
+        function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < 800; i++) {
+            ctx.beginPath();
+            let RC = random2(3);
+            console.log(RC);
+            let color = "rgba(255,0,0,0.4)"
+            RT = random3(0.6)
+            if (RC === 0) {
+                color = "rgba(255,0,0,"+RT+")"
+                console.log(color);
+            }
+            if (RC === 1) {
+                color = "rgba(0,255,0,"+RT+")";
+                console.log(color);
+            }
+            if (RC === 2) {
+                color = "rgba(0,0,255,"+RT+")";
+                console.log(color);
+            }
+            console.log(color);
+            ctx.fillStyle = color;
+            ctx.arc(
+            random(canvas.width),
+            random(canvas.height),
+            random(40),
+            0,
+            2 * Math.PI,
+            );
+            ctx.fill();
+        }
+        }
+
+        btn.addEventListener("click", draw);
+        
+    </script>
+  </body>
+</html>
