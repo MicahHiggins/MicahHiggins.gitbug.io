@@ -43,7 +43,6 @@ html {
         url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center
         no-repeat;
     z-index: 1;
-    animation-delay: 1s;
 }
 
   .quotes {
@@ -108,4 +107,15 @@ html {
     .quote-text {
       font-size: 18px;
     }
+  }
+  
+  Div p {
+    width: 67.7%;
+    height:fit-content;
+    background-image: linear-gradient( rgb(255, 149, 149), rgb(150, 150, 255));
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    padding: 15px;
+    margin:20px;
   }
