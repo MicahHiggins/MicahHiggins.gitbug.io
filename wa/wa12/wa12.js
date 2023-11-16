@@ -26,12 +26,14 @@ async function getQuote() {
             throw Error(response.statusText);
         }
         const json = await response.json();
+        author = json['author'];
+        authorTxt.textContent = '';
         window.setTimeout(function () {
             hideLoading();
             displayQuote(json['content']);
-            author = json['author'];
-            authorTxt.textContent = ''; //empties the author text when a new quote is wanted
+             //empties the author text when a new quote is wanted
         }, 500);
+        
         
         
     }

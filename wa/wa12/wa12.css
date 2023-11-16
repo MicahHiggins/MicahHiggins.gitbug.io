@@ -110,12 +110,12 @@ html {
   }
   
   Div p {
-    width: 67.7%;
+    width: 10%;
     height:fit-content;
     background-image: linear-gradient( rgb(255, 149, 149), rgb(150, 150, 255));
     position: absolute;
-    top: 100%;
-    left: 15%;
+    top: 10%;
+    left: 1%;
     padding: 15px;
     margin:20px;
   }
