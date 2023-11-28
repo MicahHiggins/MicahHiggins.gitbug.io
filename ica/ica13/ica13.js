@@ -73,13 +73,13 @@ class Ball {
 }
 
 const balls = [];
-while (balls.length < 10) {
-    const size = random(30,40);
+while (balls.length < 80) {
+    const size = random(8,20);
     const ball = new Ball(  
         random(0+size, width-size),
         random(0+size, height-size),
-        random(-2,2),
-        random(-2,2),
+        random(-8,8),
+        random(-8,8),
         randomRGB(),
         size,
         );
