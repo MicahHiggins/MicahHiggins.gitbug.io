@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>JSON: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="wa12/wa12.css" />
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+    </section>
+
+  </body>
+  <script>
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    let para2 = document.createElement('p');
+    let motherInfo = 'The mother cats are named ';
+    let kittenInfo = '';
+    const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
+
+    fetch(requestURL)
+    .then(response => response.text())
+    .then(text => displayCatInfo(text))
+
+    function displayCatInfo(catString) {
+      let total = 0;
+      let male = 0;
+      let female = 0;
+
+      // Add your code here
+      Cat = JSON.parse(catString);
+      
+    
+      for (var i = 0; i < Cat.length; i++) {
+        if (i == Cat.length - 1) {
+            motherInfo += "and " + Cat[i].name + ".";
+        }
+        else {
+            motherInfo += Cat[i].name + ", ";
+        }
+        for (var j = 0; j < Cat[i].kittens.length; j++) {
+            console.log(Cat[i].kittens[j].gender)
+            if (Cat[i].kittens[j].gender == "m") {
+                total += 1;
+                male += 1;
+                console.log(male);
+            }
+            else {
+                female += 1;
+                total += 1;
+                console.log(female);
+            }
+        }
+      }
+      kittenInfo += "Total Kittens: " + total + "\n|\n";
+      kittenInfo += "Number of Males: " + male+ '\n|\n';
+      kittenInfo += "Number of Females: " + female;
+      // Don't edit the code below here!
+
+      para1.textContent = motherInfo;
+      para2.textContent = kittenInfo;
+    }
+
+    section.appendChild(para1);
+    section.appendChild(para2);
+  </script>
+
+</html>
