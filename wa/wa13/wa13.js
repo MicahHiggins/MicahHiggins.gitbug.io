@@ -47,12 +47,12 @@ console.log(Employees);
 //Problem 4
 let total = 0;
 
-for (var i = 0; i <= Employees.emps.length -1; i++) {
-    let Sal = Employees.emps[i].salary;
+for (var i = 0; i <= Company.employees.emps.length -1; i++) {
+    let Sal = Company.employees.emps[i].salary;
     total = total + Sal;   
 }
 console.log("Problem 4");
-console.log(total);
+console.log("Total Salary for all employees:",total);
 //Problem 5
 
 for (var i = 0; i <= Company.employees.emps.length -1; i++) {
