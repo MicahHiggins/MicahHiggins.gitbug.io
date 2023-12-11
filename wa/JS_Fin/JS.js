@@ -1,6 +1,7 @@
 const Die = document.querySelector('.RD');
 const Ent = document.querySelector('.E');
 const Clr = document.querySelector('.C');
+const Fbox = document.querySelector('.box');
 let div = document.querySelector("h2");
 let Joe = document.querySelector("h3");
 
@@ -12,6 +13,12 @@ Clr.addEventListener('click', clear);
 function result() {
     RanNum = Math.floor(Math.random()*10);
     console.log(RanNum);
+    if (Fbox.style.flexDirection === "row-reverse") {
+        Fbox.style.flexDirection = "row";
+    }
+    else {
+        Fbox.style.flexDirection = "row-reverse";
+    }
     div.textContent = ""
     if (RanNum === 1) {
         div.append("1");

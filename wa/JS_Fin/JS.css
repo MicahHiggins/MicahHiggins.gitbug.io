@@ -14,11 +14,10 @@ body {
     position: absolute;
     top: 70%;
     left: 40%;
+
     
   }
-  .RD {
-    flex-grow: 400;
-  }
+ 
 
   h1{
     position: absolute;
