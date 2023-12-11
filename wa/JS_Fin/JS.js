@@ -12,8 +12,9 @@ Clr.addEventListener('click', clear);
 
 function result() {
     RanNum = Math.floor(Math.random()*10);
-    console.log(RanNum);
-    if (Fbox.style.flexDirection === "row-reverse") {
+    RanNum2 = Math.floor(Math.random()*10);
+    console.log(RanNum2);
+    if ((Fbox.style.flexDirection === "row-reverse") && (RanNum2 > 2)) {
         Fbox.style.flexDirection = "row";
     }
     else {
