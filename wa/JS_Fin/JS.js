@@ -137,7 +137,7 @@ function clear() {
 }
 function submit() {
     alert("Thou Numbah is " + NumString)
-    Joe.textContent = "Thou Numbah: ";
+    Joe.textContent = "Thou Numbuh: ";
     NumString = ""
     IMG.src = "DQ.jpg"
     RanNum = "";
