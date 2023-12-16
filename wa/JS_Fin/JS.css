@@ -16,11 +16,22 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-
+  }
+  .SBox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     
   }
- 
 
+  .C {
+    padding: 15px 29px;
+  }
   h1{
     position: absolute;
     top: 1%;
@@ -28,7 +39,7 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
   }
-  div1 {
+  .div1 {
     text-align: center;
     position: absolute;
     top: 15%;
@@ -37,7 +48,7 @@ body {
     transform: translate(-50%, -50%);
     
   }
-  div2 {
+  .div2 {
     text-align: center;
     position: absolute;
     top: 25%;
@@ -47,10 +58,10 @@ body {
     background-color: rgba(0,0,0,0.4);
     padding: 0 12px;
   }
-  div3 {
+  .div3 {
     text-align: center;
     position: absolute;
-    top: 48%;
+    top: 42%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -95,3 +106,13 @@ body {
   button:hover {
     background-image: linear-gradient(to right,#f15c41,#fc9d06);
         }
+
+  .loader-container {
+    width: 99%;
+    height: 90%;
+    position: fixed;
+    background: 
+        url("https://cdn.dribbble.com/users/6059148/screenshots/14425859/media/3f67e0e620f3818a68a03fdb874b7a56.gif") center
+        no-repeat;
+    z-index: 1;
+}
